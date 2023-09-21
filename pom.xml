@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lucifer.cloud</groupId>
+    <artifactId>lucifer-cloud-build</artifactId>
+    <version>1.0.1</version>
+    <packaging>pom</packaging>
+    <name>Lucifer Cloud Parent</name>
+    <description>Lucifer Cloud parent pom, managing plugins and dependencies for Lucifer
+        Cloud projects
+    </description>
+
+    <modules>
+        <module>lucifer-cloud-build-dependencies</module>
+        <module>lucifer-cloud-build-parent</module>
+        <module>lucifer-cloud-build-tools</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <lucifer-cloud-build.version>1.0.1</lucifer-cloud-build.version>
+        <puppycrawl-tools-checkstyle.version>9.2.1</puppycrawl-tools-checkstyle.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.lucifer.cloud</groupId>
+                <artifactId>lucifer-cloud-build-dependencies</artifactId>
+                <version>${lucifer-cloud-build.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
