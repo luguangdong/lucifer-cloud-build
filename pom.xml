@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lucifer.cloud</groupId>
     <artifactId>lucifer-cloud-build</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Lucifer Cloud Parent</name>
     <description>Lucifer Cloud parent pom, managing plugins and dependencies for Lucifer
@@ -24,7 +24,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <lucifer-cloud-build.version>1.0.1</lucifer-cloud-build.version>
+        <lucifer-cloud-build.version>1.0.1-SNAPSHOT</lucifer-cloud-build.version>
         <puppycrawl-tools-checkstyle.version>9.2.1</puppycrawl-tools-checkstyle.version>
     </properties>
 
@@ -39,5 +39,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://192.168.137.201:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://192.168.137.201:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

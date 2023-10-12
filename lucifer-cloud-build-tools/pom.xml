@@ -13,6 +13,6 @@
     <parent>
         <groupId>com.lucifer.cloud</groupId>
         <artifactId>lucifer-cloud-build</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 </project>

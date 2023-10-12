@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lucifer.cloud</groupId>
     <artifactId>lucifer-cloud-build-parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>lucifer-cloud-dependencies-parent</name>
     <description>Lucifer Cloud Build Dependencies</description>
@@ -19,11 +19,11 @@
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://192.168.137.201:8081/nexus/repository/maven-releases/</url>
+            <url>http://192.168.137.201:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://192.168.137.201:8081/nexus/repository/maven-snapshots/</url>
+            <url>http://192.168.137.201:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
