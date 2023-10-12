@@ -15,13 +15,4 @@
         <artifactId>lucifer-cloud-build</artifactId>
         <version>1.0.1</version>
     </parent>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.puppycrawl.tools</groupId>
-            <artifactId>checkstyle</artifactId>
-            <version>${puppycrawl-tools-checkstyle.version}</version>
-        </dependency>
-    </dependencies>
-
 </project>
