@@ -33,7 +33,7 @@
             <dependency>
                 <groupId>com.lucifer.cloud</groupId>
                 <artifactId>lucifer-cloud-build-dependencies</artifactId>
-                <version>${lucifer-cloud-build.version}</version>
+                <version>1.0.1-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

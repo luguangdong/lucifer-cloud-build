@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lucifer.cloud</groupId>
     <artifactId>lucifer-cloud-build-tools</artifactId>
-    <version>${lucifer-cloud-build.version}</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>lucifer-cloud-build-tools</name>
     <description>Lucifer Cloud Build Tools</description>
