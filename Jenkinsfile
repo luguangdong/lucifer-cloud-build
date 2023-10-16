@@ -3,7 +3,7 @@ pipeline {
 
     environment{
             gitUrl = "http://192.168.137.200/lucifer-cloud/lucifer-cloud-build.git"
-            gitCredentialsId = "b77c3db3-1b8b-4719-804c-f344e51e2ad7"
+            gitCredentialsId = "efeff955-9928-4a09-8151-2a450e96269e"
             mvn_home = "/data/maven/maven-3.9.4/"
      }
 
