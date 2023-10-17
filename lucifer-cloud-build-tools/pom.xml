@@ -15,4 +15,16 @@
         <artifactId>lucifer-cloud-build</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
+
+
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://192.168.137.201:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://192.168.137.201:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
