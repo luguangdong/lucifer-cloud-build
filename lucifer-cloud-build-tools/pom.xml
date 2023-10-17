@@ -10,12 +10,6 @@
     <name>lucifer-cloud-build-tools</name>
     <description>Lucifer Cloud Build Tools</description>
 
-    <parent>
-        <groupId>com.lucifer.cloud</groupId>
-        <artifactId>lucifer-cloud-build</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
-    </parent>
-
 
     <distributionManagement>
         <repository>
