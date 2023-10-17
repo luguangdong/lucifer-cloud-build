@@ -10,24 +10,9 @@
     <name>lucifer-cloud-build-tools</name>
     <description>Lucifer Cloud Build Tools</description>
 
-
-    <distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://192.168.137.201:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://192.168.137.201:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <parent>
+        <groupId>com.lucifer.cloud</groupId>
+        <artifactId>lucifer-cloud-build</artifactId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
 </project>
