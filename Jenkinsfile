@@ -32,7 +32,7 @@ pipeline {
         // 构建代码
         stage('mvn build code...') {
             steps {
-                sh '${mvn_home}/bin/mvn clean package -DskipTests'
+                sh '${mvn_home}/bin/mvn clean package deploy -DskipTests'
             }
         }
     }
