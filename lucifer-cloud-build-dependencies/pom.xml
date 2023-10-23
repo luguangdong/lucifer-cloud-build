@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lucifer.cloud</groupId>
     <artifactId>lucifer-cloud-build-dependencies</artifactId>
-    <version>${lucifer-cloud-build.version}</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>lucifer-cloud-dependencies-dependencies</name>
     <description>Lucifer Cloud Build Dependencies</description>
