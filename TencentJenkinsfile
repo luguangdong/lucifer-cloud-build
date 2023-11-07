@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment{
-            gitUrl = "https://github.com/luguangdong/lucifer-cloud-build.git"
-            gitCredentialsId = "https://github.com/luguangdong/lucifer-cloud-build.git"
+            gitUrl = "https://gitee.com/luguangdong/lucifer-cloud-build.git"
+            gitCredentialsId = "695eef5c-1a0b-4338-b2d3-4ec08ea1f2b8"
             mvn_home = "/data/maven/maven-3.9.5/"
      }
 
