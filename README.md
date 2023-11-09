@@ -21,11 +21,11 @@
 
 | 模块名称                                                     | gitee                                                        | github |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
-| **[lucifer-cloud-build](https://gitee.com/luguangdong/lucifer-cloud-build)** | https://gitee.com/luguangdong/lucifer-cloud-build.git        |        |
-| **[lucifer-cloud-task](https://gitee.com/luguangdong/lucifer-cloud-task)** | https://gitee.com/luguangdong/lucifer-cloud-task.git         |        |
-| **[lucifer-cloud-repository](https://gitee.com/luguangdong/lucifer-cloud-repository)** | https://gitee.com/luguangdong/lucifer-cloud-repository.git   |        |
-| **[lucifer-cloud-commons](https://gitee.com/luguangdong/lucifer-cloud-commons)** | https://gitee.com/luguangdong/lucifer-cloud-commons.git      |        |
-| **[lucifer-cloud-boot](https://gitee.com/luguangdong/lucifer-cloud-boot)** | https://gitee.com/luguangdong/lucifer-cloud-boot.git         |        |
-| **[lucifer-cloud-gateway](https://gitee.com/luguangdong/lucifer-cloud-gateway)** | https://gitee.com/luguangdong/lucifer-cloud-gateway.git      |        |
-| **[lucifer-cloud-authorization](https://gitee.com/luguangdong/lucifer-cloud-authorization)** | https://gitee.com/luguangdong/lucifer-cloud-authorization.git |        |
+| **[lucifer-cloud-build](https://gitee.com/luguangdong/lucifer-cloud-build)** | https://gitee.com/luguangdong/lucifer-cloud-build.git        | https://github.com/luguangdong/lucifer-cloud-build.git       |
+| **[lucifer-cloud-task](https://gitee.com/luguangdong/lucifer-cloud-task)** | https://gitee.com/luguangdong/lucifer-cloud-task.git         |   https://github.com/luguangdong/lucifer-cloud-task.git     |
+| **[lucifer-cloud-repository](https://gitee.com/luguangdong/lucifer-cloud-repository)** | https://gitee.com/luguangdong/lucifer-cloud-repository.git   |  https://github.com/luguangdong/lucifer-cloud-repository.git      |
+| **[lucifer-cloud-commons](https://gitee.com/luguangdong/lucifer-cloud-commons)** | https://gitee.com/luguangdong/lucifer-cloud-commons.git      | https://github.com/luguangdong/lucifer-cloud-commons.git       |
+| **[lucifer-cloud-boot](https://gitee.com/luguangdong/lucifer-cloud-boot)** | https://gitee.com/luguangdong/lucifer-cloud-boot.git         | https://github.com/luguangdong/lucifer-cloud-boot.git       |
+| **[lucifer-cloud-gateway](https://gitee.com/luguangdong/lucifer-cloud-gateway)** | https://gitee.com/luguangdong/lucifer-cloud-gateway.git      | https://github.com/luguangdong/lucifer-cloud-gateway.git       |
+| **[lucifer-cloud-authorization](https://gitee.com/luguangdong/lucifer-cloud-authorization)** | https://gitee.com/luguangdong/lucifer-cloud-authorization.git |https://github.com/luguangdong/lucifer-cloud-authorization.git        |
 
