@@ -2,18 +2,18 @@
 
 | 运营商 | IP            | 域名                | 用户    | 密码    |
 | ------ | ------------- | ------------------- | ------- | ------- |
-| 腾讯云 | 43.140.224.40 | lucifer-cloud.com   | lucifer | lucifer |
-| 阿里云 | 8.140.58.65   | lucifer-auth.online | lucifer | lucifer |
+| 腾讯云 | 43.140.224.40 | lucifer-cloud.com   |  |  |
+| 阿里云 | 8.140.58.65   | lucifer-auth.online |  |  |
 |        |               |                     |         |         |
 
 ### 中间件
 
 | 中间件名称 | 用户    | 密码    | 端口                                    |
 | ---------- | ------- | ------- |---------------------------------------|
-| nacos      | lucifer | lucifer | http://lucifer-auth.online:8848/nacos |
-| jenkins    | lucifer | lucifer | http://lucifer-auth.online:8080       |
-| nexus      | lucifer | lucifer | http://lucifer-auth.online:8081       |
-| mysql      | lucifer | lucifer | 43.140.224.40:3306                    |
+| nacos      |  |  | http://lucifer-auth.online:8848/nacos |
+| jenkins    |  |  | http://lucifer-auth.online:8080       |
+| nexus      |  |  | http://lucifer-auth.online:8081       |
+| mysql      |  |  | 43.140.224.40:3306                    |
 | redis      |         |         | 43.140.224.40:6379                    |
 |            |         |         |                                       |
 
