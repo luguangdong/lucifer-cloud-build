@@ -22,7 +22,7 @@
         <tencentcloudapi.version>3.1.897</tencentcloudapi.version>
         <velocity.version>2.3</velocity.version>
         <snakeyaml.version>2.0</snakeyaml.version>
-        <sharding-jdbc-core.version>4.1.1</sharding-jdbc-core.version>
+        <shardingsphere-jdbc.version>5.2.1</shardingsphere-jdbc.version>
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
         <webjars.bootstrap.version>5.2.3</webjars.bootstrap.version>
     </properties>
@@ -89,8 +89,8 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.shardingsphere</groupId>
-                <artifactId>sharding-jdbc-core</artifactId>
-                <version>${sharding-jdbc-core.version}</version>
+                <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>
+                <version>${shardingsphere-jdbc.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
