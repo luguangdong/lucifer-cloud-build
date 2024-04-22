@@ -16,6 +16,7 @@
         <spring-boot.version>3.1.5</spring-boot.version>
         <spring-cloud.version>2022.0.4</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
+        <spring-ai.version>0.8.1-SNAPSHOT</spring-ai.version>
         <dubbo.version>3.2.10</dubbo.version>
         <hutool.version>5.8.18</hutool.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
@@ -49,6 +50,13 @@
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                    <groupId>org.springframework.ai</groupId>
+                    <artifactId>spring-ai-bom</artifactId>
+                    <version>${spring-ai.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
@@ -151,7 +159,7 @@
             <name>Spring Snapshot</name>
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
@@ -181,7 +189,7 @@
             <name>Spring Snapshot</name>
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
