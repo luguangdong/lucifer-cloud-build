@@ -16,7 +16,7 @@
         <spring-boot.version>3.1.5</spring-boot.version>
         <spring-cloud.version>2022.0.4</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
-        <spring-ai.version>0.8.1-SNAPSHOT</spring-ai.version>
+        <spring-ai.version>1.0.0-SNAPSHOT</spring-ai.version>
         <dubbo.version>3.2.10</dubbo.version>
         <hutool.version>5.8.18</hutool.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
